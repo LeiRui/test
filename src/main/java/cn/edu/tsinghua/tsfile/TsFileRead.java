@@ -24,7 +24,7 @@ public class TsFileRead {
     public static void main(String[] args) throws IOException {
 
         String path = "test1.tsfile";
-        //yes
+        //yes yes
 
         // read example : no filter
         TsRandomAccessLocalFileReader input = new TsRandomAccessLocalFileReader(path);
