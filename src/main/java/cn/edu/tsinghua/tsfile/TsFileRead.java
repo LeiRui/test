@@ -18,11 +18,13 @@ import cn.edu.tsinghua.tsfile.timeseries.read.support.Path;
 
 import java.io.IOException;
 
+
 public class TsFileRead {
 
     public static void main(String[] args) throws IOException {
 
         String path = "test1.tsfile";
+        //yes
 
         // read example : no filter
         TsRandomAccessLocalFileReader input = new TsRandomAccessLocalFileReader(path);
